@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+  --bg-default: #0f1110;
+}
+
+@layer utilities {
+  .bg-gradient {
+    background-image: radial-gradient(
+      circle,
+      rgba(25,46,75,1) 0%,
+      rgba(10,10,10,1) 100%
+    );
+  }
+}
+
+@layer components {
+  .container {
+    @apply sm:max-w-[768px] md:max-w-[1440px];
+  }
+}
+
+body {
+  background-color: var(--bg-default);
+  background: radial-gradient(
+    circle,
+    rgba(25,46,75,1) 0%,
+    rgba(10,10,10,1) 100%);
+}
