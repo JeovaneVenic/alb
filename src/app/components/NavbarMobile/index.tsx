@@ -19,7 +19,15 @@ const NavbarMobile = ({ modal, closeModal }: NavbarMobileTypeProps) => {
 
             <li className="m-2 w-full p-2 text-center transition-all hover:scale-105">
               <RouterLinks
-                href="/views/about"
+                href="/views/cortes"
+                text="Cortes"
+                onClick={closeModal}
+              />
+            </li>
+
+            <li className="m-2 w-full p-2 text-center transition-all hover:scale-105">
+              <RouterLinks
+                href="/views/sobre"
                 text="Sobre"
                 onClick={closeModal}
               />
@@ -27,16 +35,8 @@ const NavbarMobile = ({ modal, closeModal }: NavbarMobileTypeProps) => {
 
             <li className="m-2 w-full p-2 text-center transition-all hover:scale-105">
               <RouterLinks
-                href="/views/shop"
-                text="Loja"
-                onClick={closeModal}
-              />
-            </li>
-
-            <li className="m-2 w-full p-2 text-center transition-all hover:scale-105">
-              <RouterLinks
-                href="/views/contact"
-                text="Contato"
+                href="/views/agendamento"
+                text="Agendamento"
                 onClick={closeModal}
               />
             </li>
