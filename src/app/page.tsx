@@ -10,22 +10,22 @@ export default function Home() {
     {
       name: 'João Silva',
       text: 'A Barbearia do Siri é fantástica! Atendimento impecável e profissionais qualificados. Recomendo!',
-      image: '/01.jpg' // Caminho para a imagem
+      image: '/01.jpg' 
     },
     {
       name: 'Antonio Melo',
       text: 'Ambiente agradável e atendimento excelente! Me senti super bem.',
-      image: '/melo.png' // Caminho para a imagem
+      image: '/melo.png' 
     },
     {
       name: 'Carlos Souza',
       text: 'Meu corte ficou perfeito! Sempre volto e indico para os amigos.',
-      image: '/carlos.png' // Caminho para a imagem
+      image: '/carlos.png' 
     },
     {
       name: 'Pedro da Silva',
       text: 'Corte de cabelo impecável e atendimento de primeira. Um lugar que recomendo para todos!',
-      image: '/pedro.png' // Caminho para a imagem
+      image: '/pedro.png' 
     },
   ];
 
@@ -56,7 +56,7 @@ export default function Home() {
             Conheça a nossa história...
           </p>
           <a
-            href="/views/about"
+            href="/views/sobre"
             className="inline-block px-8 py-3 bg-green-500 text-white rounded-full text-lg font-medium transition-colors duration-300 ease-in-out hover:bg-transparent hover:text-green-500 hover:border hover:border-green-500"
           >
             Sobre →
@@ -78,7 +78,7 @@ export default function Home() {
         </div>
         <div className="relative z-10">
           <a
-            href="/views/contact"
+            href="/views/agendamento"
             className="inline-block px-8 py-3 bg-green-500 text-white rounded-full text-lg font-medium transition-colors duration-300 ease-in-out hover:bg-transparent hover:text-green-500 hover:border hover:border-green-500"
           >
             Agendamento Online →
